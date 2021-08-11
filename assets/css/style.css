@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(179, 248, 189);
+}
+
+.form-group{
+    margin-bottom: 1.5rem;
+}
+
+#inputValue
+{
+    width: 760px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: .25rem;
+    outline: none;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+
+#search
+{
+    color: #fff;
+    background-color: #007bff;
+    /* font-size: 1.2rem; */
+    outline: none;
+    min-height: 38px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+#movies-searchable
+{
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.movie
+{
+    margin-bottom: 50px;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+
+section img
+{
+    width: 300px;
+}
+
+img:hover
+{
+    margin-left: 0 40px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.content
+{
+    border: 1px solid white;
+    padding: 20px;
+    display: none;
+}
+
+#content-close
+{
+    cursor: pointer;
+}
+
+.content div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+.content-display{
+    display: block;
+}
+
